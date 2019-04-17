@@ -78,7 +78,7 @@ public class insert_sort {
 class insert_sort_test{
 
     public static void main(String[] args){
-        int[] array={47,29,27,99,43,23,80,1,34};
+        int[] array={47,29,27,99,43,23,80,1,34,23,45,73,23};
         insert_sort insertSort=new insert_sort(array);
         insertSort.sort();
         insertSort.printAll();

@@ -57,7 +57,7 @@ public class quick_sort {
 class quick_sort_test{
 
     public static void main(String[]ages){
-        int[] array={47,29,27,99,43,23,80,1,34};
+        int[] array={47,29,27,99,43,23,80,1,34,23,45,73,23};
         quick_sort quickSort=new quick_sort(array);
         quickSort.sort();
         quickSort.printAll();
